@@ -1,5 +1,5 @@
 ---
-title: Post da CMS
+title: Post da verifica immagini da CMS
 categories:
   - category
   - subcategory
@@ -14,4 +14,4 @@ keywords:
   - altro
   - tech
 ---
-Prova post scritto da **CMS** valutare tempo aggiornamento in locale
+Modificare repository immagini del **CMS** per aggiornamento in locale
