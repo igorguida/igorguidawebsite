@@ -15,4 +15,4 @@ keywords:
 ---
 <!--more-->
 
-Testo del terzo post di **fassona**
+Testo del terzo post di **verifica**
