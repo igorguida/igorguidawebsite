@@ -8,8 +8,8 @@ tags:
   - tag2
 date: 2020-05-30T10:56:52.019Z
 thumbnailImagePosition: left
-thumbnailImage: /images/black-and-white-escalator.jpg
-coverImage: /images/city-lights-through-rain-window.jpg
+thumbnailImage: /images/happy-phone.jpg
+coverImage: /images/buying-bitcoin-on-app.jpg
 keywords:
   - altro
   - cani
