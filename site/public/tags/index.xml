@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Igor Guida&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 May 2020 17:40:53 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2020 17:56:01 +0000</lastBuildDate>
     
 	<atom:link href="https://www.igorguida.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>tag1</title>
       <link>https://www.igorguida.com/tags/tag1/</link>
-      <pubDate>Sat, 30 May 2020 17:40:53 +0000</pubDate>
+      <pubDate>Sat, 30 May 2020 17:56:01 +0000</pubDate>
       
       <guid>https://www.igorguida.com/tags/tag1/</guid>
       <description></description>
@@ -23,18 +23,9 @@
     <item>
       <title>tag2</title>
       <link>https://www.igorguida.com/tags/tag2/</link>
-      <pubDate>Sat, 30 May 2020 17:40:53 +0000</pubDate>
+      <pubDate>Sat, 30 May 2020 17:56:01 +0000</pubDate>
       
       <guid>https://www.igorguida.com/tags/tag2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tfoto</title>
-      <link>https://www.igorguida.com/tags/tfoto/</link>
-      <pubDate>Sat, 30 May 2020 10:08:40 +0000</pubDate>
-      
-      <guid>https://www.igorguida.com/tags/tfoto/</guid>
       <description></description>
     </item>
     

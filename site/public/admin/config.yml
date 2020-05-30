@@ -3,7 +3,7 @@ backend:
   repo: igorguida/igorguidawebsite
   branch: master
 
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images
+media_folder: "site/static/images/uploads" # Media files will be stored in the repo under static/images
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images
 
 collections:
