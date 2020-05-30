@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Igor Guida&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 May 2020 17:56:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2020 18:45:29 +0000</lastBuildDate>
     
 	<atom:link href="https://www.igorguida.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Due fattori e Javascript</title>
+      <link>https://www.igorguida.com/2020/05/due-fattori-e-javascript/</link>
+      <pubDate>Sat, 30 May 2020 18:45:29 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/2020/05/due-fattori-e-javascript/</guid>
+      <description>Due Fattori e Javascript</description>
+    </item>
     
     <item>
       <title>Sabato 30 Maggio 2020</title>
