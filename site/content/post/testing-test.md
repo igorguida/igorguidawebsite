@@ -7,7 +7,7 @@ tags:
   - tag1
   - red
 date: 2020-05-30T07:58:22.782Z
-thumbnailImagePosition: rigth
+thumbnailImagePosition: left
 thumbnailImage: /src/img/gallery/dns3.jpeg
 coverImage: /src/img/gallery/deepinscreenshot_seleziona-area_20200505175231.png
 keywords:
