@@ -8,10 +8,10 @@ tags:
   - tag2
 date: 2020-05-18T23:24:25.170Z
 thumbnailImagePosition: top
-thumbnailImage: /src/img/gallery/deepinscreenshot_seleziona-area_20200505175231.png
-coverImage: /src/img/gallery/deepinscreenshot_seleziona-area_20200319102858.png
+thumbnailImage: /images/electronic-components-for-science-project.jpg
+coverImage: /images/payphone-on-brick-wall.jpg
 keywords:
   - altro
   - tech
 ---
-Modificare repository immagini del **CMS** per aggiornamento in locale
+**Modificare** repository immagini del **CMS** per aggiornamento in locale
