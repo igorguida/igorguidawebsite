@@ -23,7 +23,7 @@
 baseURL = "https://www.igorguida.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Igor Guida Blog"
+title = "Igor Guida's Blog"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
@@ -40,7 +40,9 @@ canonifyurls = true
 
 [author]
   name = "Igor Guida"
-  bio = "Esempio biografia **COOL**"
+  bio = "Vice President - CTO of Stripes and scientific Director at Stripes Digitus Lab, in MIND Milan Innovation District. Thanks to coding, educational robotics and technologies applied also to teaching, my job remains an interesting part of my life. As former president of the MiLUG Milan linux user group, my main interest continues to revolve around the GNU / Linux world, always preferring open source / open hardware technologies."
+
+
   job = "Vicepresidente"
   location = "Italia"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
