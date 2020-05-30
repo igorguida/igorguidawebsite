@@ -3,12 +3,13 @@ backend:
   repo: igorguida/igorguidawebsite
   branch: master
 
-media_folder: "images" # Folder where user uploaded files should go
+media_folder: "static/images" # Media files will be stored in the repo under static/images
+public_folder: "/images" # The src attribute for uploaded media will begin with /images
 
 collections:
   - name: post
     label: "New Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # OK The path to the folder where the documents are stored
+    folder: "site/content/post" # DEF The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
