@@ -8,11 +8,11 @@ tags:
   - tag2
 date: 2020-05-10T23:28:08.000Z
 thumbnailImagePosition: left
-thumbnailImage: /src/img/gallery/deepinscreenshot_seleziona-area_20200516101601.png
-coverImage: /src/img/gallery/deepinscreenshot_seleziona-area_20200516101851.png
+thumbnailImage: /images/uploads/technology-flower.jpg
+coverImage: /images/uploads/rainbow-keys.jpg
 keywords:
   - tech
 ---
 <!--more-->
 
-Testo del terzo post di **verifica**
+Testo del terzo post di **verifica** rifatto
