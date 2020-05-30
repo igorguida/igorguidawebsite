@@ -8,7 +8,7 @@ tags:
   - red
 date: 2020-05-30T07:58:22.782Z
 thumbnailImagePosition: left
-thumbnailImage: /src/img/gallery/gratisography-188h.jpg
+thumbnailImage: /src/img/gallery/tho_6688.jpg
 coverImage: /src/img/gallery/gratisography-79h.jpg
 keywords:
   - altro
