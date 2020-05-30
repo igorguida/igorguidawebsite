@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Igor Guida Blog</title>
+    <title>Categories on Igor Guida&#39;s Blog</title>
     <link>https://www.igorguida.com/categories/</link>
-    <description>Recent content in Categories on Igor Guida Blog</description>
+    <description>Recent content in Categories on Igor Guida&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2020 01:28:08 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2020 07:58:22 +0000</lastBuildDate>
     
 	<atom:link href="https://www.igorguida.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>category</title>
       <link>https://www.igorguida.com/categories/category/</link>
-      <pubDate>Mon, 11 May 2020 01:28:08 +0200</pubDate>
+      <pubDate>Sat, 30 May 2020 07:58:22 +0000</pubDate>
       
       <guid>https://www.igorguida.com/categories/category/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>subcategory</title>
       <link>https://www.igorguida.com/categories/subcategory/</link>
-      <pubDate>Mon, 11 May 2020 01:28:08 +0200</pubDate>
+      <pubDate>Sat, 30 May 2020 07:58:22 +0000</pubDate>
       
       <guid>https://www.igorguida.com/categories/subcategory/</guid>
       <description></description>

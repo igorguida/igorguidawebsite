@@ -17,7 +17,7 @@
 <meta name="twitter:title" content="Cover image showcase">
 <meta property="og:url" content="https://www.igorguida.com/2015/05/cover-image-showcase/">
 <meta property="twitter:url" content="https://www.igorguida.com/2015/05/cover-image-showcase/">
-<meta property="og:site_name" content="Igor Guida Blog">
+<meta property="og:site_name" content="Igor Guida&#39;s Blog">
 <meta property="og:description" content="Tranquilpeak integrate a unique &ldquo;cover image&rdquo; feature. Open this post to see how this feature sublimate your article.">
 <meta name="twitter:description" content="Tranquilpeak integrate a unique &ldquo;cover image&rdquo; feature. Open this post to see how this feature sublimate your article.">
 <meta property="og:locale" content="en-us">
@@ -45,6 +45,10 @@
 
 <meta name="twitter:card" content="summary">
 
+  <meta name="twitter:site" content="@igorguida">
+
+
+  <meta name="twitter:creator" content="@igorguida">
 
 
 
@@ -88,6 +92,9 @@
       
     
     
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
   </head>
 
   <body>
@@ -95,7 +102,7 @@
       <header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
-    <a class="header-title-link" href="https://www.igorguida.com/">Igor Guida Blog</a>
+    <a class="header-title-link" href="https://www.igorguida.com/">Igor Guida&#39;s Blog</a>
   </div>
   
     
@@ -121,7 +128,7 @@
         </a>
         <h4 class="sidebar-profile-name">Igor Guida</h4>
         
-          <h5 class="sidebar-profile-bio">Esempio biografia <strong>COOL</strong></h5>
+          <h5 class="sidebar-profile-bio">Vice President - CTO of Stripes and scientific Director at Stripes Digitus Lab, in MIND Milan Innovation District. Thanks to coding, educational robotics and technologies applied also to teaching, my job remains an interesting part of my life. As former president of the MiLUG Milan linux user group, my main interest continues to revolve around the GNU / Linux world, always preferring open source / open hardware technologies.</h5>
         
       </div>
     
@@ -496,7 +503,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae v
     
     <h4 id="about-card-name">Igor Guida</h4>
     
-      <div id="about-card-bio">Esempio biografia <strong>COOL</strong></div>
+      <div id="about-card-bio">Vice President - CTO of Stripes and scientific Director at Stripes Digitus Lab, in MIND Milan Innovation District. Thanks to coding, educational robotics and technologies applied also to teaching, my job remains an interesting part of my life. As former president of the MiLUG Milan linux user group, my main interest continues to revolve around the GNU / Linux world, always preferring open source / open hardware technologies.</div>
     
     
       <div id="about-card-job">
@@ -562,6 +569,21 @@ $(document).ready(function() {
   });
 });
 </script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+
+
 
 
   

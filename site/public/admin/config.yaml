@@ -3,7 +3,7 @@ backend:
   repo: igorguida/igorguidawebsite
   branch: master
 
-media_folder: "src/img/gallery" # Folder where user uploaded files should go
+media_folder: "images" # Folder where user uploaded files should go
 
 collections:
   - name: about
