@@ -3,11 +3,11 @@ backend:
   repo: igorguida/igorguidawebsite
   branch: master
 
-media_folder: "images" # Folder where user uploaded files should go
+media_folder: "/site/public/images" # Folder where user uploaded files should go
 
 collections:
   - name: post
-    label: "Nuovo Post" # Used in the UI, ie.: "New Post"
+    label: "New Post" # Used in the UI, ie.: "New Post"
     folder: "site/content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
