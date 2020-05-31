@@ -7,7 +7,7 @@ tags:
   - tag1
   - tag2
 date: 2020-05-30T17:56:01.846Z
-thumbnailImagePosition: left
+thumbnailImagePosition: right
 thumbnailImage: /images/uploads/black-and-white-escalator.jpg
 coverImage: /images/uploads/city-lights-through-rain-window.jpg
 keywords:
