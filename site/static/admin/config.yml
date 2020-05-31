@@ -3,6 +3,8 @@ backend:
   repo: igorguida/igorguidawebsite
   branch: master
 
+base_url: https://api.netlify.com
+
 site_url: https://igorguida.com
   
 media_folder: "site/static/images/uploads" # Media files will be stored in the repo under static/images
