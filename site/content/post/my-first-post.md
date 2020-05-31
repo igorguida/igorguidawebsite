@@ -1,18 +1,18 @@
 ---
-title: "My First Post"
-date: 2020-05-11T00:19:53+02:00
+title: My First Post
 categories:
-- category
-- subcategory
+  - category
+  - subcategory
 tags:
-- tag1
-- tag2
+  - tag1
+  - tag2
+date: 2020-05-10T22:19:53.000Z
+thumbnailImagePosition: right
+thumbnailImage: /images/uploads/happy-phone.jpg
+coverImage: /images/uploads/buying-bitcoin-on-app.jpg
 keywords:
-- tech
-#thumbnailImage: //example.com/image.jpg
+  - tech
 ---
-
 <!--more-->
 
-primo... secondo post
-
+Primo... secondo **post primo... secondo postprimo**... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo postprimo... secondo post
