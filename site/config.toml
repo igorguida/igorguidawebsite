@@ -40,7 +40,7 @@ canonifyurls = true
 
 [author]
   name = "Igor Guida"
-  bio = "Vice President - CTO and cofounder of <b><a href="http://www.stripes.it">Stripes</a></b>, Head of the online magazine Journal of culture and training in the pedagogical and social fields <b><a href="http://www.pedagogia.it/la-rivista/">Pedagogika.it</a></b>and scientific Director at <b><a href="http://www.digituslab.it">Stripes Digitus Lab</a></b>, in <b><a href="https://www.mindmilano.it/">MIND Milan Innovation District</a></b>. Always working and studying in the technological field and having a master's degree in philosophy, thanks to coding, educational robotics and technologies applied also to teaching, my job remains an interesting part of my life. As former president of the MiLUG Milan linux user group, my main interest continues to revolve around the GNU / Linux world, always preferring open source / open hardware technologies."
+  bio = "Vice President - CTO and cofounder of **[Stripes](http://www.stripes.it)**, Head of the online magazine Journal of culture and training in the pedagogical and social fields **[Pedagogika.it](http://www.pedagogia.it/la-rivista/)** and scientific Director at **[Digitus Lab](http://www.digituslab.it)**, in **[MIND](https://www.mindmilano.it/)**. Always working and studying in the technological field and having a master's degree in philosophy, thanks to coding, educational robotics and technologies applied also to teaching, my job remains an interesting part of my life. As former president of the MiLUG Milan linux user group, my main interest continues to revolve around the GNU / Linux world, always preferring open source / open hardware technologies."
 
 
   job = "Vicepresidente"
@@ -107,7 +107,7 @@ canonifyurls = true
   url = "https://www.facebook.com/igor.guida"
 [[menu.links]]
   weight = 3
-  identifier = "Rtwitter"
+  identifier = "Twitter"
   name = "Twitter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
   url = "https://twitter.com/igorguida"
