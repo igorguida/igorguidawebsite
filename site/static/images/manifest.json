@@ -1,5 +1,15 @@
 {
- "name": "App",
+ "name": "Igor Guida",
+ "short_name": "Igor",
+ "description": "Placeholder",
+ "lang": "en-GB",
+ "start_url": "../index.html",
+ "scope": "/",
+ "display": "standalone",
+ "theme_color": "#ffffff",
+
+
+
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
