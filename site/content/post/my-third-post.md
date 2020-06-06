@@ -1,12 +1,12 @@
 ---
-title: My Third Post
+title: Terzo Post
 date: 2020-05-10T23:28:08.000Z
 categories:
   - category
   - subcategory
 tags:
   - tag1
-  - tag2
+  - post
 keywords:
   - tech
 thumbnailImagePosition: left
