@@ -6,7 +6,7 @@
 #disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 ########################################
 
-# tranquilpeak theme
+# igorguida theme
 # Version : 0.4.7-BETA
 # Author : Author
 
@@ -230,6 +230,11 @@ canonifyurls = true
     name = "Google+"
     icon = "fa-google-plus"
     url = "https://plus.google.com/share?url=%s"
+
+  [[params.sharingOptions]]
+    name = "Linkedin"
+    icon = "fa-linkedin"
+    url = "https://www.linkedin.com/sharing/share-offsite/?url=%s"
 
   [params.header.rightLink]
     class = ""
