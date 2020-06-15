@@ -26,7 +26,8 @@ defaultContentLanguage = "en-us"
 title = "Igor Guida's Blog"
 theme = "igorguida-theme"
 disqusShortname = "igorguida-theme"
-googleAnalytics = "G-2D86FY4YN6"
+#googleAnalytics = "G-2D86FY4YN6"
+googleAnalytics = "UA-169361738-1"
 paginate = 7
 canonifyurls = true
 
