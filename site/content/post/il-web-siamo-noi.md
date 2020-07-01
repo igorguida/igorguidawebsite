@@ -16,11 +16,6 @@ thumbnailImagePosition: right
 thumbnailImage: /images/uploads/photography-product-download-min.jpg
 coverImage: /images/uploads/city-lights-through-rain-window-min.jpg
 ---
-{{< alert info >}}
-*Ho ritrovato una serie di articoli scritti diverso tempo fa e mi è venuto da riflettere su cosa sia cambiato da allora e su come percepiamo la tecnologia ed i social media... intanto lo ripubblico e poi ci tornerò sopra analizzando se e come sono cambiate le cose da allora.
-Tratto da  Pedagogika.it/2010/XIV_3/la_società_nella_rete/ del 2010:*
-{{< /alert >}}
-
 Resto sempre colpito dai fenomeni mediatici per i quali qualcosa esiste se, e solo se, ne parlano tutti, ma proprio tutti.
 In qualunque giornale, rivista, trasmissione televisiva, è possibile sentir parlare di società della rete ed in particolare del Web 2.0.
 La cosa estremamente interessante è che nessuno sa cosa effettivamente sia.
