@@ -14,11 +14,6 @@ thumbnailImagePosition: right
 thumbnailImage: /images/uploads/happy-phone-min.jpg
 coverImage: /images/uploads/buying-bitcoin-on-app-min.jpg
 ---
-{{< alert info >}}
-*Ho ritrovato una serie di articoli scritti diverso tempo fa e mi è venuto da riflettere su cosa sia cambiato da allora e su come percepiamo la tecnologia ed i social media... intanto lo ripubblico e poi ci tornerò sopra analizzando se e come sono cambiate le cose da allora.
-Tratto da  Pedagogika.it/2010/XIV_3/la_società_nella_rete/ del 2010:*
-{{< /alert >}}
-
 *Se una foto invecchia, diventa gialla, oppure, se si graffia, nasconde in parte l’in- formazione in essa contenuta, ma resta senz’altro intellegibile all’occhio di chiunque. Se invece un DVD o un CD-ROM si graffia, le informazioni che vengono perse sono milioni di volte più grandi, perché la cancellazione di quei numeri possono impedire potenzialmente l’intellegibilità dell’intero contenuto del DVD.*
 
 Pur convinti che l’evoluzione tecnologica ci apra a sempre più importanti tra- guardi in relazione alla capacità di archiviare e ricercare informazioni attraverso la digitalizzazione dei nostri prodotti testuali, musicali e video, ci pare legittimo interrogarsi sull’effettiva capacità di questi prodotti di permanere intatti nel tempo.
