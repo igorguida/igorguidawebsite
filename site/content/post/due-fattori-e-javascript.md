@@ -15,12 +15,7 @@ thumbnailImagePosition: left
 thumbnailImage: /images/uploads/black-and-white-escalator-min.jpg
 coverImage: /images/uploads/buying-bitcoin-on-app-min.jpg
 ---
-{{< alert info >}}
-*Ho ritrovato una serie di articoli scritti diverso tempo fa e mi è venuto da riflettere su cosa sia cambiato da allora e su come percepiamo la tecnologia ed i social media... intanto lo ripubblico e poi ci tornerò sopra analizzando se e come sono cambiate le cose da allora.
-Tratto da  Pedagogika.it/2010/XIV_3/la_società_nella_rete/ del 2010:*
-{{< /alert >}}
-
-**Il viaggiatore riconosce il poco che è suo scoprendo il molto che non ha avuto e non avrà (I. Calvino, Le città invisibili, 1972)**
+**Il viaggiatore riconosce il poco che è suo scoprendo il molto che non ha avuto e non avrà (I. Calvino, Le città invisibili, 1972)**
 
 
 Quale importanza ha assunto la tecnologia nella vita quotidiana? Come e in che misura essa partecipa alla costruzione della realtà sociale e del suo immaginario, dei suoi riti e miti, delle sue definizioni simboliche, ideologiche e comunicative?
