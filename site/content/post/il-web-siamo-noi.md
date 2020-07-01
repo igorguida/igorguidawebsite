@@ -12,17 +12,17 @@ tags:
 keywords:
   - tecnologia
 autoThumbnailImage: false
-thumbnailImagePosition: top
+thumbnailImagePosition: left
 thumbnailImage: /images/uploads/black-and-white-escalator-min.jpg
 coverImage: /images/uploads/city-lights-through-rain-window-min.jpg
 ---
 {{< alert info >}}
-*Ho ritrovato una serie di articoli scritti diverso tempo fa e mi è venuto da riflettere su cosa è cambiato da allora su come percepiamo la tecnologia ed i social media.. intanto lo ripubblico e poi ci tornerò sopra analizzando se e come sono cambiate le cose da allora.
+*Ho ritrovato una serie di articoli scritti diverso tempo fa e mi è venuto da riflettere su cosa sia cambiato da allora e su come percepiamo la tecnologia ed i social media... intanto lo ripubblico e poi ci tornerò sopra analizzando se e come sono cambiate le cose da allora.
 Tratto da  Pedagogika.it/2010/XIV_3/la_società_nella_rete/ del 2010:*
 {{< /alert >}}
 
 Resto sempre colpito dai fenomeni mediatici per i quali qualcosa esiste se, e solo se, ne parlano tutti, ma proprio tutti.
-In qualunque giornale, rivista, trasmissione televisiva, è possibile sentir parlare di società della rete ed in particolare del Web 2.0. La cosa estremamente interessante è che nessuno sa cosa effettivamente sia. Una rapida ricerca su internet permette di capire che il Web 2.0 è tutto e nulla: nel mondo informatico, e non solo, affinché esista un Qualcosa-2.0 occorre, come presupposto, che prima sia esistito un Qualcosa-1.0. Illuminante, sul tema, è un articolo di [Tim O’Reilly] (http://www. bitmama.it/articles/14-Cos-Web-2-0)
+In qualunque giornale, rivista, trasmissione televisiva, è possibile sentir parlare di società della rete ed in particolare del Web 2.0. La cosa estremamente interessante è che nessuno sa cosa effettivamente sia. Una rapida ricerca su internet permette di capire che il Web 2.0 è tutto e nulla: nel mondo informatico, e non solo, affinché esista un Qualcosa-2.0 occorre, come presupposto, che prima sia esistito un Qualcosa-1.0. Illuminante, sul tema, è un articolo di [Tim O’Reilly](http://www. bitmama.it/articles/14-Cos-Web-2-0).
 La definizione del Web 1.0 nasce per differenza rispetto a ciò che dovrebbe essere il Web 2.0 che, in estrema sintesi, se proprio vogliamo adottare questo termine, potremmo indicare come quell’insieme di strumenti e tecnologie che hanno reso possibile, e rendono possibile alle persone che usano la rete internet, avere esperienze che li coinvolgano in maniera maggiore, rendendole artefici e partecipi di ciò che nella rete accade.
 In realtà, quindi, non stiamo parlando di una nuova tecnologia ma, casomai, di un uso differente, agito dalle persone, di un qualcosa di preesistente.
 Pertanto non esiste tanto un momento specifico nel quale nasce il Web 2.0 quanto piuttosto l’esigenza di identificare un mutato atteggiamento delle persone nell’uso collaborativo di strumenti della rete preesistenti.
