@@ -12,8 +12,8 @@ keywords:
   - altro
   - tech
 thumbnailImagePosition: left
-thumbnailImage: /images/uploads/javascript-code-on-laptop-screen-min.jpg
-coverImage: /images/uploads/two-factor-authentication-security-min.jpg
+thumbnailImage: /images/uploads/black-and-white-escalator-min.jpg
+coverImage: /images/uploads/buying-bitcoin-on-app-min.jpg
 ---
 {{< alert info >}}
 *Ho ritrovato una serie di articoli scritti diverso tempo fa e mi è venuto da riflettere su cosa sia cambiato da allora e su come percepiamo la tecnologia ed i social media... intanto lo ripubblico e poi ci tornerò sopra analizzando se e come sono cambiate le cose da allora.
