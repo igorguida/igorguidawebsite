@@ -6,15 +6,110 @@
     <description>Recent content in Tags on Igor Guida&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 May 2020 18:45:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 15:45:53 +0000</lastBuildDate><atom:link href="https://www.igorguida.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arduino</title>
+      <link>https://www.igorguida.com/tags/arduino/</link>
+      <pubDate>Wed, 01 Jul 2020 15:45:53 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/tags/arduino/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://www.igorguida.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coder dojo</title>
+      <link>https://www.igorguida.com/tags/coder-dojo/</link>
+      <pubDate>Wed, 01 Jul 2020 15:45:53 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/tags/coder-dojo/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>coding</title>
+      <link>https://www.igorguida.com/tags/coding/</link>
+      <pubDate>Wed, 01 Jul 2020 15:45:53 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/tags/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>culture</title>
+      <link>https://www.igorguida.com/tags/culture/</link>
+      <pubDate>Wed, 01 Jul 2020 15:45:53 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robot</title>
+      <link>https://www.igorguida.com/tags/robot/</link>
+      <pubDate>Wed, 01 Jul 2020 15:45:53 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/tags/robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robotica educativa</title>
+      <link>https://www.igorguida.com/tags/robotica-educativa/</link>
+      <pubDate>Wed, 01 Jul 2020 15:45:53 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/tags/robotica-educativa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software-libero</title>
+      <link>https://www.igorguida.com/tags/software-libero/</link>
+      <pubDate>Wed, 01 Jul 2020 15:45:53 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/tags/software-libero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tecnologia</title>
+      <link>https://www.igorguida.com/tags/tecnologia/</link>
+      <pubDate>Wed, 01 Jul 2020 15:45:53 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/tags/tecnologia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thymio</title>
+      <link>https://www.igorguida.com/tags/thymio/</link>
+      <pubDate>Wed, 01 Jul 2020 15:45:53 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/tags/thymio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>new media</title>
+      <link>https://www.igorguida.com/tags/new-media/</link>
+      <pubDate>Wed, 01 Jul 2020 13:11:10 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/tags/new-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social network</title>
+      <link>https://www.igorguida.com/tags/social-network/</link>
+      <pubDate>Wed, 01 Jul 2020 13:11:10 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/tags/social-network/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>tag1</title>
       <link>https://www.igorguida.com/tags/tag1/</link>
-      <pubDate>Sat, 30 May 2020 18:45:29 +0000</pubDate>
+      <pubDate>Sun, 10 May 2020 16:42:58 +0200</pubDate>
       
       <guid>https://www.igorguida.com/tags/tag1/</guid>
       <description></description>
@@ -23,18 +118,9 @@
     <item>
       <title>tag2</title>
       <link>https://www.igorguida.com/tags/tag2/</link>
-      <pubDate>Sat, 30 May 2020 18:45:29 +0000</pubDate>
+      <pubDate>Sun, 10 May 2020 16:42:58 +0200</pubDate>
       
       <guid>https://www.igorguida.com/tags/tag2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>post</title>
-      <link>https://www.igorguida.com/tags/post/</link>
-      <pubDate>Sun, 10 May 2020 23:28:08 +0000</pubDate>
-      
-      <guid>https://www.igorguida.com/tags/post/</guid>
       <description></description>
     </item>
     

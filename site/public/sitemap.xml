@@ -1,84 +1,97 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://www.igorguida.com/tags/arduino/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
     <loc>https://www.igorguida.com/categories/</loc>
-    <lastmod>2020-05-30T18:45:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.igorguida.com/categories/category/</loc>
-    <lastmod>2020-05-30T18:45:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.igorguida.com/2020/05/due-fattori-e-javascript/</loc>
-    <lastmod>2020-05-30T18:45:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.igorguida.com/post/</loc>
-    <lastmod>2020-05-30T18:45:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.igorguida.com/categories/subcategory/</loc>
-    <lastmod>2020-05-30T18:45:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.igorguida.com/tags/tag1/</loc>
-    <lastmod>2020-05-30T18:45:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.igorguida.com/tags/tag2/</loc>
-    <lastmod>2020-05-30T18:45:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.igorguida.com/tags/</loc>
-    <lastmod>2020-05-30T18:45:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.igorguida.com/2020/05/sabato-30-maggio-2020/</loc>
-    <lastmod>2020-05-30T17:56:01+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.igorguida.com/tags/post/</loc>
-    <lastmod>2020-05-10T23:28:08+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.igorguida.com/2020/05/terzo-post/</loc>
-    <lastmod>2020-05-10T23:28:08+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.igorguida.com/2020/05/esempio-post/</loc>
-    <lastmod>2020-05-10T22:19:53+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/coder-dojo/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/coding/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/culture/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
     <loc>https://www.igorguida.com/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/post/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/robot/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/categories/robotica/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/robotica-educativa/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/software-libero/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/tecnologia/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/categories/tecnologia/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/thymio/</loc>
+    <lastmod>2020-07-01T15:45:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/2020/07/articoli-del-passato-su-tecnologia-e-social-network/</loc>
+    <lastmod>2020-07-01T13:11:10+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/new-media/</loc>
+    <lastmod>2020-07-01T13:11:10+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/categories/new-media/</loc>
+    <lastmod>2020-07-01T13:11:10+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/social-network/</loc>
+    <lastmod>2020-07-01T13:11:10+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/categories/social-network/</loc>
+    <lastmod>2020-07-01T13:11:10+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/2020/07/il-web-siamo-noi/</loc>
+    <lastmod>2020-07-01T11:20:22+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/2020/05/la-societ%C3%A0-nella-rete/</loc>
+    <lastmod>2020-05-30T18:45:29+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/2020/05/la-conservazione-del-sapere-nella-societ%C3%A0-dellinformazione/</loc>
+    <lastmod>2020-05-10T22:19:53+00:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/categories/category/</loc>
     <lastmod>2020-05-10T16:42:58+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.igorguida.com/prova/</loc>
     <lastmod>2020-05-10T16:42:58+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.igorguida.com/categories/subcategory/</loc>
+    <lastmod>2020-05-10T16:42:58+02:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/tag1/</loc>
+    <lastmod>2020-05-10T16:42:58+02:00</lastmod>
+  </url><url>
+    <loc>https://www.igorguida.com/tags/tag2/</loc>
+    <lastmod>2020-05-10T16:42:58+02:00</lastmod>
+  </url><url>
     <loc>https://www.igorguida.com/tech/</loc>
     <lastmod>2018-11-14T19:02:50-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.igorguida.com/archives/</loc>
   </url>
-  
 </urlset>

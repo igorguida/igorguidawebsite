@@ -6,15 +6,47 @@
     <description>Recent content in Categories on Igor Guida&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 May 2020 18:45:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 15:45:53 +0000</lastBuildDate><atom:link href="https://www.igorguida.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>robotica</title>
+      <link>https://www.igorguida.com/categories/robotica/</link>
+      <pubDate>Wed, 01 Jul 2020 15:45:53 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/categories/robotica/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://www.igorguida.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tecnologia</title>
+      <link>https://www.igorguida.com/categories/tecnologia/</link>
+      <pubDate>Wed, 01 Jul 2020 15:45:53 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/categories/tecnologia/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>new media</title>
+      <link>https://www.igorguida.com/categories/new-media/</link>
+      <pubDate>Wed, 01 Jul 2020 13:11:10 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/categories/new-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social network</title>
+      <link>https://www.igorguida.com/categories/social-network/</link>
+      <pubDate>Wed, 01 Jul 2020 13:11:10 +0000</pubDate>
+      
+      <guid>https://www.igorguida.com/categories/social-network/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>category</title>
       <link>https://www.igorguida.com/categories/category/</link>
-      <pubDate>Sat, 30 May 2020 18:45:29 +0000</pubDate>
+      <pubDate>Sun, 10 May 2020 16:42:58 +0200</pubDate>
       
       <guid>https://www.igorguida.com/categories/category/</guid>
       <description></description>
@@ -23,7 +55,7 @@
     <item>
       <title>subcategory</title>
       <link>https://www.igorguida.com/categories/subcategory/</link>
-      <pubDate>Sat, 30 May 2020 18:45:29 +0000</pubDate>
+      <pubDate>Sun, 10 May 2020 16:42:58 +0200</pubDate>
       
       <guid>https://www.igorguida.com/categories/subcategory/</guid>
       <description></description>

@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.115.0 with theme Tranquilpeak 0.4.7-BETA">
+<meta name="author" content="Igor Guida">
+<meta name="keywords" content="tech, tecnologia, robotica educativa, coding">
+<meta name="description" content="Pare che l&rsquo;idea dell&rsquo;uomo di dar vita ad oggetti inanimati possa risalire addirittura a qualche migliaio d&rsquo;anni fa. In Cina ci sono testimonianze a partire dal terzo secolo avanti Cristo. Nel libro &ldquo;Trattato del vuoto perfetto&rdquo; (uno dei tre grandi classici taoisti), ad esempio, si narra dell&rsquo;ingegnere meccanico Yan Shi capace di costruire un&rsquo;automa dalle sembianze umane. In ambito educativo negli anni &lsquo;60 Seymour Papert, collaboratore di Jean Piaget, darà vita al Logo, un linguaggio di programmazione comprensibile ed usabile anche da bambini delle scuole elementari e darà il via all&rsquo;utilizzo del computer nelle scuole come supporto valido anche per i bambini più piccoli.">
+
+
+<meta property="og:description" content="Pare che l&rsquo;idea dell&rsquo;uomo di dar vita ad oggetti inanimati possa risalire addirittura a qualche migliaio d&rsquo;anni fa. In Cina ci sono testimonianze a partire dal terzo secolo avanti Cristo. Nel libro &ldquo;Trattato del vuoto perfetto&rdquo; (uno dei tre grandi classici taoisti), ad esempio, si narra dell&rsquo;ingegnere meccanico Yan Shi capace di costruire un&rsquo;automa dalle sembianze umane. In ambito educativo negli anni &lsquo;60 Seymour Papert, collaboratore di Jean Piaget, darà vita al Logo, un linguaggio di programmazione comprensibile ed usabile anche da bambini delle scuole elementari e darà il via all&rsquo;utilizzo del computer nelle scuole come supporto valido anche per i bambini più piccoli.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="La robotica educativa esiste">
+<meta name="twitter:title" content="La robotica educativa esiste">
+<meta property="og:url" content="https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/">
+<meta property="twitter:url" content="https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/">
+<meta property="og:site_name" content="Igor Guida&#39;s Blog">
+<meta property="og:description" content="Pare che l&rsquo;idea dell&rsquo;uomo di dar vita ad oggetti inanimati possa risalire addirittura a qualche migliaio d&rsquo;anni fa. In Cina ci sono testimonianze a partire dal terzo secolo avanti Cristo. Nel libro &ldquo;Trattato del vuoto perfetto&rdquo; (uno dei tre grandi classici taoisti), ad esempio, si narra dell&rsquo;ingegnere meccanico Yan Shi capace di costruire un&rsquo;automa dalle sembianze umane. In ambito educativo negli anni &lsquo;60 Seymour Papert, collaboratore di Jean Piaget, darà vita al Logo, un linguaggio di programmazione comprensibile ed usabile anche da bambini delle scuole elementari e darà il via all&rsquo;utilizzo del computer nelle scuole come supporto valido anche per i bambini più piccoli.">
+<meta name="twitter:description" content="Pare che l&rsquo;idea dell&rsquo;uomo di dar vita ad oggetti inanimati possa risalire addirittura a qualche migliaio d&rsquo;anni fa. In Cina ci sono testimonianze a partire dal terzo secolo avanti Cristo. Nel libro &ldquo;Trattato del vuoto perfetto&rdquo; (uno dei tre grandi classici taoisti), ad esempio, si narra dell&rsquo;ingegnere meccanico Yan Shi capace di costruire un&rsquo;automa dalle sembianze umane. In ambito educativo negli anni &lsquo;60 Seymour Papert, collaboratore di Jean Piaget, darà vita al Logo, un linguaggio di programmazione comprensibile ed usabile anche da bambini delle scuole elementari e darà il via all&rsquo;utilizzo del computer nelle scuole come supporto valido anche per i bambini più piccoli.">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2020-07-01T15:45:53">
+  
+  
+    <meta property="article:modified_time" content="2020-07-01T15:45:53">
+  
+  
+  
+    
+      <meta property="article:section" content="tecnologia">
+    
+      <meta property="article:section" content="robotica">
+    
+  
+  
+    
+      <meta property="article:tag" content="robotica educativa">
+    
+      <meta property="article:tag" content="tecnologia">
+    
+      <meta property="article:tag" content="coding">
+    
+      <meta property="article:tag" content="coder dojo">
+    
+      <meta property="article:tag" content="robot">
+    
+      <meta property="article:tag" content="software-libero">
+    
+      <meta property="article:tag" content="culture">
+    
+      <meta property="article:tag" content="arduino">
+    
+      <meta property="article:tag" content="thymio">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+  <meta name="twitter:site" content="@igorguida">
+
+
+  <meta name="twitter:creator" content="@igorguida">
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.igorguida.com/images/uploads/maddathymio.jpg">
+  <meta property="twitter:image" content="https://www.igorguida.com/images/uploads/maddathymio.jpg">
+
+
+  <meta property="og:image" content="https://www.igorguida.com/images/uploads/maddathymio.jpg">
+  <meta property="twitter:image" content="https://www.igorguida.com/images/uploads/maddathymio.jpg">
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/bfc9d9fa9a0753f1c04eac08ffd98b1c?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/bfc9d9fa9a0753f1c04eac08ffd98b1c?s=640">
+
+
+    <title>La robotica educativa esiste</title>
+
+    <link rel="icon" href="https://www.igorguida.com/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://www.igorguida.com/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-169361738-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://www.igorguida.com/">Igor Guida&#39;s Blog</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://www.igorguida.com/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/bfc9d9fa9a0753f1c04eac08ffd98b1c?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://www.igorguida.com/#about">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/bfc9d9fa9a0753f1c04eac08ffd98b1c?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Igor Guida</h4>
+        
+          <h5 class="sidebar-profile-bio">Vice President - CTO and cofounder of <strong><a href="http://www.stripes.it">Stripes</a></strong>, Head of the online magazine Journal of culture and training in the pedagogical and social fields <strong><a href="http://www.pedagogia.it/la-rivista/">Pedagogika.it</a></strong> and scientific Director at <strong><a href="http://www.digituslab.it">Digitus Lab</a></strong>, in <strong><a href="https://www.mindmilano.it/">MIND</a></strong>. Always working and studying in the technological field and having a master&rsquo;s degree in philosophy, thanks to coding, educational robotics and technologies applied also to teaching, my job remains an interesting part of my life. As former president of the MiLUG Milan linux user group, my main interest continues to revolve around the GNU / Linux world, always preferring open source / open hardware technologies.</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.igorguida.com/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.igorguida.com/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.igorguida.com/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.igorguida.com/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.igorguida.com/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/igorguida" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.facebook.com/igor.guida" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-facebook"></i>
+      
+      <span class="sidebar-button-desc">Facebook</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/igorguida" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.linkedin.com/in/igorguida/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+      
+      <span class="sidebar-button-desc">LinkedIn</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.igorguida.com/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+  <div class="post-header-cover
+              text-left
+              "
+       style="background-image:url('/images/uploads/maddathymio.jpg')"
+       data-behavior="4">
+    
+      <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      La robotica educativa esiste
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-07-01T15:45:53Z">
+        
+  July 1, 2020
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://www.igorguida.com/categories/tecnologia">tecnologia</a>, 
+    
+      <a class="category-link" href="https://www.igorguida.com/categories/robotica">robotica</a>
+    
+  
+
+  </div>
+
+</div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="4"
+        class="hasCover
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>Pare che l&rsquo;idea dell&rsquo;uomo di dar vita ad oggetti inanimati possa risalire addirittura a qualche migliaio d&rsquo;anni fa. In Cina ci sono testimonianze a partire dal terzo secolo avanti Cristo. Nel libro &ldquo;Trattato del vuoto perfetto&rdquo; (uno dei tre grandi classici taoisti), ad esempio, si narra dell&rsquo;ingegnere meccanico Yan Shi capace di costruire un&rsquo;automa dalle sembianze umane. In ambito educativo negli anni &lsquo;60 Seymour Papert, collaboratore di Jean Piaget, darà vita al Logo, un linguaggio di programmazione comprensibile ed usabile anche da bambini delle scuole elementari e darà il via all&rsquo;utilizzo del computer nelle scuole come supporto valido anche per i bambini più piccoli.</p>
+<p>Tra le molte tecnologie e prodotti sempre più presenti nel mercato della robotica educativa, sono a nostro avviso da prediligere quelle che si basano sul software libero (open source software) e sull&rsquo;open hardware. Tra i diversi che soddisfano questi requisiti, troviamo: Thymio di Mobsya creato dal Prof. Francesco Mondada Gruppo MOBOTS, Ecole Polytechnique Fédérale de Lausanne e la piattaforma Arduino con particolare riferimento ad Arduino UNO. Entrambi questi strumenti, insieme a molti altri, hanno trovato spazio in Cascina Triulza (MIND, Milano Innovation District - ex sito Expo Milano) all&rsquo;interno dello Stripes Digitus Lab, il nuovo Centro internazionale di ricerca sulla robotica educativa e le tecnologie digitali creato da Stripes Coop, realtà attiva da decenni nella gestione di servizi educativi e pedagogici, nonché in attività di ricerca e di sperimentazione, in collaborazione con diverse università italiane ed europee (l&rsquo;Università degli Studi di Milano Bicocca; l&rsquo;Università Cattolica del Sacro Cuore di Milano - C.R.E.M.I.T.; ISTC-CNR L&rsquo;Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche; EPFL Gruppo MOBOTS, Ecole Polytechnique Fédérale de Lausanne) sulla robotica educativa come strumento di apprendimento, creatività, collaborazione e inclusione.</p>
+<p>Lo Stripes Digitus Lab si rivolge ai &ldquo;nativi digitali&rdquo; con particolare attenzione alla prima infanzia (0-6 anni), ai bambini in età scolare (6-10 anni) e ai preadolescenti (11-14 anni). Molte delle sue attività prevedono il coinvolgimento di studenti di scuole secondarie di secondo grado, di insegnanti, professionalità del settore educativo e genitori. Ma ritorniamo ai nostri robot: Thymio è basato sull&rsquo;&ldquo;educare&rdquo;, visualizzare i meccanismi, permettere l&rsquo;accesso, creare il &ldquo;senso critico&rdquo;.</p>
+<p>Il professore di robotica Francesco Mondada del Politecnico federale di Losanna (EPFL), lo descrive con queste parole: &ldquo;Direi che è un robot &lsquo;controcorrente&rsquo;. Infatti, in un periodo dove non passa una settimana senza l&rsquo;annuncio di un nuovo robot &rsquo;educativo&rsquo;, il robot Thymio resta una specie di eccezione, che va controcorrente rispetto a vari aspetti. Al contrario dei robot che normalmente sfoggiano look incredibili, high-tech o fantascientifici, Thymio è progettato con un look &ldquo;neutro&rdquo; che permette di adattarsi ai bisogni, di far esprimere la creatività e la voglia di realizzare le proprie idee; si rinnova nel software, sulla base di un hardware avanzato, stabile, robusto, che può essere riparato grazie a una documentazione completa e un&rsquo;elettronica smontabile&rdquo;.</p>
+<p>Per quanto riguarda Arduino, è un mondo intero e dunque, non solo uno strumento per costruire robot educativi, ma una vera e propria piattaforma di sviluppo di idee, progetti e prodotti di qualunque tipo. Viene utilizzato ad esempio per tutto ciò che viene identificato con l&rsquo;acronimo STEM (scienza, tecnologia, ingegneria e matematica) per &ldquo;pensare con le mani&rdquo; o più propriamente fare &ldquo;tinkering&rdquo; e cioè quella cosa che nasce dalla volontà di armeggiare, adoperarsi, darsi da fare con le cose per capirne il funzionamento, creare nuovi oggetti, studiarne le logiche attraverso un&rsquo;attività dinamica, concreta, stimolante e divertente.</p>
+<p>L&rsquo;idea è che imparare concetti della fisica, della matematica e più in generale della tecnologia, non debba necessariamente essere noioso e difficile, ma possa invece essere appunto un&rsquo;avventura entusiasmante. Diventa così possibile accendere luci, leggere dei valori da termometri, collegare sensori di qualunque tipo e poter operare con l&rsquo;elettronica anche per chi è totalmente a digiuno di competenze tecniche specifiche. Basandosi su un hardware open source e su software open source si riescono a creare le premesse per un uso estensivo di queste tecnologie, rendendole non più solo appannaggio dei tecnici ma condividendole con le persone ed in particolare con i bambini ed i ragazzi che ritrovano in questo modo il contatto con il &ldquo;com&rsquo;è fatto&rdquo; tanto importante per apprendere attraverso l&rsquo;imitazione. Questo è uno dei motivi per cui è nato lo Stripes Digitus Lab, un luogo dove tecnologia e pedagogia entrano in connessione per dare vita a percorsi, laboratori e campus per bambini e le loro famiglie e dove esperti e professionisti in ambito digitale e psicopedagogico si incontrano, si confrontano e lavorano insieme per sviluppare nuove idee, approcci e strumenti.</p>
+<p><a href="https://www.huffingtonpost.it/con-i-bambini/la-robotica-educativa-esiste_a_23523436/">articolo apparso la prima volta su Huffington Post</a></p>
+
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://www.igorguida.com/tags/robotica-educativa/">robotica educativa</a>
+
+  <a class="tag tag--primary tag--small" href="https://www.igorguida.com/tags/tecnologia/">tecnologia</a>
+
+  <a class="tag tag--primary tag--small" href="https://www.igorguida.com/tags/coding/">coding</a>
+
+  <a class="tag tag--primary tag--small" href="https://www.igorguida.com/tags/coder-dojo/">coder dojo</a>
+
+  <a class="tag tag--primary tag--small" href="https://www.igorguida.com/tags/robot/">robot</a>
+
+  <a class="tag tag--primary tag--small" href="https://www.igorguida.com/tags/software-libero/">software-libero</a>
+
+  <a class="tag tag--primary tag--small" href="https://www.igorguida.com/tags/culture/">culture</a>
+
+  <a class="tag tag--primary tag--small" href="https://www.igorguida.com/tags/arduino/">arduino</a>
+
+  <a class="tag tag--primary tag--small" href="https://www.igorguida.com/tags/thymio/">thymio</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.igorguida.com/2020/07/articoli-del-passato-su-tecnologia-e-social-network/" data-tooltip="Articoli del passato su tecnologia e social network">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2023 Igor Guida. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.igorguida.com/2020/07/articoli-del-passato-su-tecnologia-e-social-network/" data-tooltip="Articoli del passato su tecnologia e social network">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.igorguida.com/2020/07/la-robotica-educativa-esiste/">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.igorguida.com%2F2020%2F07%2Fla-robotica-educativa-esiste%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.igorguida.com%2F2020%2F07%2Fla-robotica-educativa-esiste%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.igorguida.com%2F2020%2F07%2Fla-robotica-educativa-esiste%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.igorguida.com%2F2020%2F07%2Fla-robotica-educativa-esiste%2F">
+          <i class="fa fa-linkedin"></i><span>Share on Linkedin</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/bfc9d9fa9a0753f1c04eac08ffd98b1c?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Igor Guida</h4>
+    
+      <div id="about-card-bio">Vice President - CTO and cofounder of <strong><a href="http://www.stripes.it">Stripes</a></strong>, Head of the online magazine Journal of culture and training in the pedagogical and social fields <strong><a href="http://www.pedagogia.it/la-rivista/">Pedagogika.it</a></strong> and scientific Director at <strong><a href="http://www.digituslab.it">Digitus Lab</a></strong>, in <strong><a href="https://www.mindmilano.it/">MIND</a></strong>. Always working and studying in the technological field and having a master&rsquo;s degree in philosophy, thanks to coding, educational robotics and technologies applied also to teaching, my job remains an interesting part of my life. As former president of the MiLUG Milan linux user group, my main interest continues to revolve around the GNU / Linux world, always preferring open source / open hardware technologies.</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Vicepresidente
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Italia
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://www.igorguida.com/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://www.igorguida.com/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/www.igorguida.com\/2020\/07\/la-robotica-educativa-esiste\/';
+          
+            this.page.identifier = '\/2020\/07\/la-robotica-educativa-esiste\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+
