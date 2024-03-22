@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caccia al Tesoro WebXR</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <!-- Integrazione jsQR per il riconoscimento QR code -->
+    <script src="https://unpkg.com/jsqr/dist/jsQR.js"></script>
+    <style>
+      /* Stile per l'elemento video e il canvas (nascosti durante la scansione) */
+      #video, #canvas { display: none; }
+    </style>
+  </head>
+  <body>
+    <a-scene embedded arjs='sourceType: webcam;'>
+      <!-- Ambientazione WebXR -->
+    </a-scene>
+    <video id="video" width="320" height="240" autoplay hidden></video>
+    <canvas id="canvas" hidden></canvas>
+    <script>
+      // Funzione per avviare la fotocamera e scansionare i QR code
+      async function avviaScansione() {
+        const video = document.getElementById('video');
+        const canvasElement = document.getElementById('canvas');
+        const canvas = canvasElement.getContext('2d');
+
+        // Accedi alla fotocamera
+        navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } })
+          .then(function(stream) {
+            video.srcObject = stream;
+            video.setAttribute("playsinline", true); // Evita la riproduzione a schermo intero su iOS
+            video.play();
+            requestAnimationFrame(tick);
+          });
+
+        function tick() {
+          if (video.readyState === video.HAVE_ENOUGH_DATA) {
+            canvasElement.height = video.videoHeight;
+            canvasElement.width = video.videoWidth;
+            canvas.drawImage(video, 0, 0, canvasElement.width, canvasElement.height);
+            var imageData = canvas.getImageData(0, 0, canvasElement.width, canvasElement.height);
+            var code = jsQR(imageData.data, imageData.width, imageData.height, {
+              inversionAttempts: "dontInvert",
+            });
+            if (code) {
+              console.log("QR Code trovato: ", code.data);
+              // Funzione per caricare l'oggetto 3D in base ai dati del QR code
+              caricaOggetto3D({ x: 0, y: 1.5, z: -3 }); // Esempio di posizione
+            }
+          }
+          requestAnimationFrame(tick);
+        }
+      }
+
+      // Funzione migliorata per caricare oggetti 3D
+      function caricaOggetto3D(posizione) {
+        const oggetto3D = document.createElement('a-entity');
+        oggetto3D.setAttribute('gltf-model', './path/to/your/3D/model.glb'); // Aggiorna con il percorso corretto
+        oggetto3D.setAttribute('position', `${posizione.x} ${posizione.y} ${posizione.z}`);
+        document.querySelector('a-scene').appendChild(oggetto3D);
+      }
+
+      avviaScansione(); // Avvia la scansione all'avvio della pagina
+    </script>
+  </body>
+</html>
+
+
+
